@@ -1,0 +1,232 @@
+#root {
+  margin-top: 5%;
+}
+
+.menu-div {
+  padding-bottom: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.menu-button {
+  font-size: 1.25em;
+  font-weight: 400;
+  font: Helvetica;
+  border-radius: 4px;
+  border: 1px solid #699BC6;
+  background-color: #5e8bb2;
+  padding: 10px;
+  color: #f2f2f2;
+}
+
+.selected-menu {
+  background-color: #496c8a;
+}
+
+.calculator-container {
+  border: 2px solid #323232;
+  border-radius: 7px;
+  background-color:#323232;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 400px;
+  font-size: 15px;
+}
+
+.container *{
+  box-sizing: border-box;
+}
+
+.rows:before,
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.border-bottom {
+  border-bottom: 1px solid lightgrey;
+}
+
+.padding0 {
+  padding: 0px !important;
+}
+
+.paddingLeft0 {
+  padding-left: 0px !important;
+}
+
+[class*='column-'] {
+  float: left;
+  min-height: 1px;
+  padding: 5px;
+}
+
+.column-1 {
+  width: 8.33%;
+}
+
+.column-2 {
+  width: 16.67%;
+}
+
+.column-3 {
+  width: 25%;
+}
+
+.column-4 {
+  width: 33.33%;
+}
+
+.column-5 {
+  width: 41.67%;
+}
+
+.column-6 {
+  width: 50%;
+}
+
+.column-7 {
+  width: 58.33%;
+}
+
+.column-8 {
+  width: 66.67%;
+}
+
+.column-9 {
+  width: 75%;
+}
+
+.column-10 {
+  width: 83.33%;
+}
+
+.column-11 {
+  width: 91.67%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+.expression-container {
+  text-align: right;
+  padding-bottom: 0px !important;
+}
+
+.expression-container > input {
+  width: 100%;
+  border-radius: 4px 4px 0px 0px;
+  padding: 4px;
+  border: 1px solid lightgrey;
+  font-size: 1.1em;
+  text-align: right;
+  font: Helvetica;
+}
+
+.result-container {
+  text-align: right;
+  padding-top: 0px !important;
+}
+
+.result-container > div {
+  padding: 4px;
+  font-weight: bold;
+  font: Helvetica;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 0px 0px 4px 4px;
+  font-size: 1.35em;
+}
+
+.numbers {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.operator {
+  width: 100%;
+  text-align: center;
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid lightskyblue;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.delete-keys {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+  background-color: #c13232;
+  border: 1px solid #B20000;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+.equal-sign {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  background-color: lightblue;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid lightskyblue;
+  font-weight: bold;
+  font-size: 1.15em;
+}
+
+/* Graphing Calculator Style */
+.graph-function-input {
+  width: 100%;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid lightgrey;
+  font-size: 1.05em;
+  font: Helvetica;
+}
+
+.graph-input-panel {
+  text-align: center;
+  color: white;
+  font-size: 1.05em;
+  font: Helvetica;
+}
+
+.grpah-chart {
+  background-color: white;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.graph-button {
+  border-radius: 4px;
+  font-size: 1.1em;
+  font-weight: bold;
+  background-color: #25C525;
+  border: 1px solid #167616;
+  color: #e5e5e5;
+}
+
+.error-message {
+  color: #856404;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
